@@ -1,0 +1,17 @@
+
+
+.item-list{ /*ul*/
+    list-style-type:none; /*จุดออก*/
+    padding: 0;
+    margin-bottom:40 px;
+}
+
+.item-list li{ /*li*/
+    background: #fff; /*พื้นหลัง*/
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12); /*เงากล่อง*/
+    padding: 15px; /*ห่างใน*/
+    margin: 10px 0; /*ห้างนอก*/
+    color:#333; /* สีข้อความ */
+    display:flex; /*รูปแบบ*/
+    justify-content:space-between; /* space-between เนื้อหาห่างกันไม่ชิด*/
+}

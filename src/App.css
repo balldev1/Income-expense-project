@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&family=Srisakdi&display=swap');
+ 
+ /* ด้านนอก*/
+*{
+  box-sizing: border-box; /* รูปแบบbox */
+  font-family : 'Barlow Condensed', sans-serif;
+}
+
+body{
+  background: #f7f7f7; /* พื้นหลังสีขาวหม่นๆ*/
+  display:flex ;/* รูปแบบflex*/
+  flex-direction: column; /*flex colum*/
+  align-items:center; /*flex item center*/
+  justify-content:center; /*จัดข้อความ center*/
+  min-height: 100vh; /*ส่วนสูงเว็บ*/
+  margin: 0;
+}
+
+ /* ด้านใน */
+ /* cover div */
+.container{
+  margin: 30px auto;
+  width: 450px;
+}
+
+.horizontal-menu{
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  overflow:hidden;
+  background: #333;
+  text-align:center;
+}
+
+.horizontal-menu li{
+  display: inline-block;
+}
+
+.horizontal-menu a{
+  color: white;
+  text-decoration:none;
+  padding:16px;
+  display:block;
+}
