@@ -7,7 +7,7 @@ import ReportComponent from './component/ReportComponent';
 import { BrowserRouter as Router,Routes,Route,Link } from 'react-router-dom'
 import Item from './component/Item';
 
-
+//npm install react-scripts --save-dev
 
 function App(){
   const design ={color:'red',textAlign:'center',fontSize:'1.5rem'}
